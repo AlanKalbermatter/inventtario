@@ -1,0 +1,20 @@
+.title-box {
+    -fx-border-color: #000000;
+}
+
+.button-side-bar {
+    -fx-border-color: #000000;
+
+}
+
+.attached-bar {
+    -fx-background-color: #BF565F;
+}
+
+.box-divisor {
+    -fx-background-color: #BFAAA3;
+}
+
+.responsive-bar {
+    -fx-background-color: #D9CAC1;
+}

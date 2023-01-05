@@ -1,4 +1,4 @@
-package com.inventtario.inventtario.model;
+package com.inventtario.model;
 
 import java.util.List;
 import java.sql.Date;

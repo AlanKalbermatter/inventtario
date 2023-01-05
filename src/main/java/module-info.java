@@ -11,7 +11,11 @@ module com.inventtario.inventtario {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.sql;
+    requires io.vertx.core;
+    requires io.vertx.client.sql;
+    requires io.vertx.client.sql.mysql;
+    requires io.vertx.client.jdbc;
 
-    opens com.inventtario.inventtario to javafx.fxml;
-    exports com.inventtario.inventtario;
+    opens com.inventtario to javafx.fxml;
+    exports com.inventtario;
 }

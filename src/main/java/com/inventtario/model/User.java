@@ -1,6 +1,6 @@
-package com.inventtario.inventtario.model;
+package com.inventtario.model;
 
-import com.inventtario.inventtario.util.Privilege;
+import com.inventtario.util.Privilege;
 
 import java.util.List;
 

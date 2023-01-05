@@ -116,6 +116,16 @@
             <artifactId>vertx-core</artifactId>
             <version>4.3.7</version>
         </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-sql-client</artifactId>
+            <version>4.3.7</version>
+        </dependency>
+        <dependency>
+            <groupId>io.vertx</groupId>
+            <artifactId>vertx-jdbc-client</artifactId>
+            <version>4.3.7</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -138,7 +148,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.inventtario.inventtario/com.inventtario.inventtario.HelloApplication
+                            <mainClass>com.inventtario.inventtario/com.inventtario.HelloApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,4 +1,4 @@
-package com.inventtario.inventtario.model;
+package com.inventtario.model;
 
 public class Item {
 

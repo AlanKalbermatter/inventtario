@@ -1,4 +1,4 @@
-package com.inventtario.inventtario.util;
+package com.inventtario.util;
 
 public enum Privilege {
     ADMIN,
